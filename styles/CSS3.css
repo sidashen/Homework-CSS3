@@ -1,6 +1,8 @@
 .bkg {
   background-image: linear-gradient(to top left, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  height: 800px;
 }
+
 
 .title p {
   margin: 0;
@@ -38,4 +40,29 @@
                0 4px 3px black;
 }
 
-.slogan 
+.slogan {
+  height: 204px;
+  width: 49%;
+  margin: 90px auto;
+  position: relative;
+  border-radius: 5px;
+  background: linear-gradient(226deg, transparent 1.5em, white 0)
+}
+
+.slogan p {
+  color: #008002;
+  margin: 0%;
+  padding: 36px;
+  vertical-align: middle;
+  font-size: 24px;
+}
+
+.slogan::before{
+  content: "";
+  position: absolute;
+  right: -1px;
+  top: 0px;
+  background: linear-gradient(136deg, transparent 56%, grey);
+  width: 36px;
+  height: 34px;
+  transform: rotate(90deg);
