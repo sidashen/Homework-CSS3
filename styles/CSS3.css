@@ -153,3 +153,19 @@ body {
   top: 33%;
   padding: 0 29px;
 }
+
+.knowMore1, .knowMore2, .knowMore3 {
+  position: relative;
+  padding: 7px;
+  background-color: black;
+  color: white;
+  border-style: none;
+}
+
+.knowMore1, .knowMore2 {
+  margin-top: 90px;
+}
+
+.knowMore3 {
+  margin-top: 63px;
+}
