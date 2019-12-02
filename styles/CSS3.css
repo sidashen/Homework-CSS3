@@ -1,0 +1,41 @@
+.bkg {
+  background-image: linear-gradient(to top left, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+}
+
+.title p {
+  margin: 0;
+  font-size: 92px;
+  letter-spacing: 2.4px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 .1px 0.1px black,
+               0 .2px 0.1px black, 
+               0 .3px 0.1px black,
+               0 .4px 0.1px black,
+               0 .5px 0.1px black,
+               0 .6px 0.1px black,
+               0 .7px 0.1px black,
+               0 .8px 0.1px black,
+               0 .9px 0.1px black,
+               0 1px 0.1px black,
+               0 1.1px 0.1px black, 
+               0 1.2px 0.1px black, 
+               0 1.3px 0.1px black,
+               0 1.4px 0.1px black,
+               0 1.5px 0 black,
+               0 1.6px 0 black,
+               0 1.7px 0 black,
+               0 1.8px 0 black,
+               0 1.9px 0 black,
+               0 2px 0 black,
+               0 2.1px 0 black,
+               0 2.2px 0 black,
+               0 3.6px 0 black, 
+               0 3.5px 0 black,
+               0 3.7px 0 black, 
+               0 3.8px 0 black, 
+               0 3.9px 0 black, 
+               0 4px 3px black;
+}
+
+.slogan 
