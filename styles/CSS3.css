@@ -5,7 +5,7 @@ body {
 
 .bkg {
   background-image: linear-gradient(to top left, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  height: 800px;
+  height: 100%;
 }
 
 .title p {
@@ -33,7 +33,7 @@ body {
 }
 
 .slogan {
-  height: 204px;
+  height: 100%;
   width: 49%;
   margin: 90px auto;
   position: relative;
@@ -75,14 +75,81 @@ body {
   box-shadow: 2px 1px 6px #f0edf1;
 }
 
+.firstImg, .secondImg {
+  color: white;
+}
+
+.thirdImg {
+  color: black;
+}
+
 .firstImg {
-  background: url(../images/empire-state.png)
+  background-image: url(../images/empire-state.png);
+}
+
+.mask1 {
+  background-color:rgba(58, 1, 132, 0.44);
 }
 
 .secondImg {
   background: url(../images/midtown.png)
 }
 
+.mask2 {
+  background-color: transparent;
+}
+
+.secondImg:hover .mask2 {
+  display: block;
+  opacity: 0.9;
+}
+
 .thirdImg {
   background: url(../images/liberty.png)
+}
+
+.mask3 {
+  background-color: #FFF8E8;
+}
+
+.thirdImg:hover .mask3 {
+  display: block;
+  opacity: 0.9;
+}
+
+.firstImg:hover .mask1 {
+  display: block;
+  opacity: 0.9;
+}
+
+.mask1, .mask2, .mask3 {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  margin: -16px 0 0 0;
+  padding: 0;
+}
+
+.title1, .title2, .title3 {
+  position: relative;
+  top: 9%;
+}
+
+.des1, .des2 {
+  position: absolute;
+  top: 17%;
+}
+
+.title3 {
+  border-bottom: solid 1px #bcb8ac;
+  margin: 16px 32px;
+  padding: 7px 29px;
+}
+
+.des3 {
+  position: absolute;
+  top: 33%;
+  padding: 0 29px;
 }
