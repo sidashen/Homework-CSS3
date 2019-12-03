@@ -235,7 +235,7 @@ body {
 }
 
 .textBlock {
-  margin: 6.9% auto;
+  margin: 6.9% auto 0;
   padding: 26px;
   position: relative;
   top: 90px;
